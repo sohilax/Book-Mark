@@ -1,0 +1,127 @@
+html
+{
+    font-size: 16px;   
+}
+
+body
+{
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    font-family: 'Caveat Brush', cursive;
+}
+
+
+header .container
+{
+padding: 20px;
+border-bottom: 1px solid rgb(153, 153, 153);
+margin: 15px auto;
+}
+header .container  h3
+{
+    color: rgb(170, 170, 170);
+    font-size: 2.17em;
+    font-weight: bold;
+}
+/*************************************************************************************/
+.well
+{
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 1.5rem;
+}
+.well h2
+{
+    font-size: 2.1em;
+    margin: .83rem;
+    font-weight: bold;
+}
+.well p
+{
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+
+}
+.well input
+{
+    width: 80%;
+    font-size: 15px;
+    max-height: 2em;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    padding: 5px;
+    margin: auto;
+    cursor: text;
+margin-bottom: .8rem;
+}
+.well input:hover
+{
+  box-shadow: 0px 0px 12px -7px #888;  
+}
+.alert-error {
+    background-color: #ffb2b2;
+    color: #6d0000 !important;
+    border: 1px solid #6d0000;
+    padding: 5px;
+    margin-bottom: .7rem !important;
+    width: 80%;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    justify-content: center;   
+}
+.well .btn
+{
+    box-shadow: none;
+}
+
+.well .btn:hover
+{
+    background-color: #0a3f77;
+    border: 1px solid #0a3f77;
+    box-shadow: 2px 5px 3px 0px #888;
+}
+/**************************************************************************************/
+.webwell {
+    background-image: linear-gradient(#EEE,#FFF);
+    margin: .7rem 0;
+    padding: 20px;
+}
+.webwell h2 {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 15px 5px;
+
+}
+.webwell a  , .webwell button {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: fit-content;
+    box-shadow: none !important;
+}
+.webwell .btn-danger:hover {
+    background-color: #510d0e;
+    border: 1px solid #510d0e;
+    box-shadow: 2px 5px 3px 0px #888 !important;
+}
+.webwell .btn-primary:hover {
+    background-color: #0a3f77;
+    border: 1px solid #0a3f77;
+    box-shadow: 2px 5px 3px 0px #888 !important;
+}
+/*************************************************************************************/
+footer .container {
+    padding: 20px;
+    border-top: 1px solid #999;
+    font-size: 1.3rem;
+}
+footer p {
+    color: #AAA;
+}
+/******************************************************************************************/
